@@ -3,25 +3,25 @@
 	<input id="physicalArmorHU1" type="number" name="system.physicalArmorHU1" value="{{system.physicalArmorHU1}}" data-dtype="Number"/>
 	<input id="physicalArmorHU2" type="number" name="system.physicalArmorHU2" value="{{system.physicalArmorHU2}}" data-dtype="Number"/>
 	<input id="physicalArmorA" type="number" name="system.physicalArmorA" value="{{system.physicalArmorA}}" data-dtype="Number"/>
-	<input id="physicalArmorArrowAB" type="checkbox" name="system.physicalArmorArrowAB" data-dvalue="{{system.physicalArmorArrowAB}}" data-dtype="Boolean"/>
+	<input id="physicalArmorArrowAB" type="checkbox" name="system.physicalArmorArrowAB" {{checked system.physicalArmorArrowAB}} data-dtype="Boolean"/>
 	<input id="physicalArmorB" type="number" name="system.physicalArmorB" value="{{system.physicalArmorB}}" data-dtype="Number"/>
-	<input id="physicalArmorArrowBC" type="checkbox" name="system.physicalArmorArrowAB" data-dvalue="{{system.physicalArmorArrowAB}}" data-dtype="Boolean"/>
+	<input id="physicalArmorArrowBC" type="checkbox" name="system.physicalArmorArrowBC" {{checked system.physicalArmorArrowBC}} data-dtype="Boolean"/>
 	<input id="physicalArmorC" type="number" name="system.physicalArmorC" value="{{system.physicalArmorC}}" data-dtype="Number"/>
 	<input id="physicalArmorD" type="number" name="system.physicalArmorD" value="{{system.physicalArmorD}}" data-dtype="Number"/>
-	<input id="physicalArmorArrowED" type="checkbox" name="system.physicalArmorArrowED" data-dvalue="{{system.physicalArmorArrowED}}" data-dtype="Boolean"/>
+	<input id="physicalArmorArrowED" type="checkbox" name="system.physicalArmorArrowED" {{checked system.physicalArmorArrowED}} data-dtype="Boolean"/>
 	<input id="physicalArmorE" type="number" name="system.physicalArmorE" value="{{system.physicalArmorE}}" data-dtype="Number"/>
-	<input id="physicalArmorArrowFE" type="checkbox" name="system.physicalArmorArrowFE" data-dvalue="{{system.physicalArmorArrowFE}}" data-dtype="Boolean"/>
+	<input id="physicalArmorArrowFE" type="checkbox" name="system.physicalArmorArrowFE" {{checked system.physicalArmorArrowFE}} data-dtype="Boolean"/>
 	<input id="physicalArmorF" type="number" name="system.physicalArmorF" value="{{system.physicalArmorF}}" data-dtype="Number"/>
 	<input id="physicalModSU" type="number" name="system.physicalModSU" value="{{system.physicalModSU}}" data-dtype="Number"/>
 	<input id="physicalModRD" type="number" name="system.physicalModRD" value="{{system.physicalModRD}}" data-dtype="Number"/>
 	<input id="mentalModSU" type="number" name="system.mentalModSU" value="{{system.mentalModSU}}" data-dtype="Number"/>
 	<input id="mentalModRD" type="number" name="system.mentalModRD" value="{{system.mentalModRD}}" data-dtype="Number"/>
 	
-	
 	<input id="mojo" type="number" name="system.mojo.value" value="{{system.mojo.value}}" data-dtype="Number"/>
 	<input id="mojoMax" type="number" name="system.mojo.max" value="{{system.mojo.max}}" data-dtype="Number"/>
 	
-	<img src="{{actor.img}}" data-action="editImage" data-edit="img" width="540px" height="1320px"/>
+	<img src="{{actor.img}}" data-action="editImage" data-edit="img" width="270px" height="660px"/>
+	
 	<input id="name" name="name" type="text" value="{{actor.name}}" placeholder="Name"/>
 	<input id="nickname" type="text" name="system.nickname" value="{{system.nickname}}" data-dtype="String"/>
 	<input id="nationality" type="text" name="system.nationality" value="{{system.nationality}}" data-dtype="String"/>

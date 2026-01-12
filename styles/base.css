@@ -4,22 +4,20 @@
 	font-family: "Roboto", sans-serif;
 }
 
-.inversedirectivegs.sheet.actor{
-	background-image: url("../../../systems/inversedirectivegs/ui/sheets/character-bg.png");
-	/* background-color fallback */
-	background-color: #cccccc;
-	background-size: 1163px 958px;
-}
-
 .inversedirectivegs.content {
 	overflow: scroll;
+	background-image: url(../../../systems/inversedirectivegs/ui/sheets/character-bg.png);
+	background-color: #cccccc;
+	background-size: 1163px 958px;
+	background-repeat: no-repeat;
 }
 
 .inversedirectivegs.content input {
 	position: relative;
 	background-color: rgba(0, 0, 0, 0.5);
+	height: 18px;
 }
-.inversedirectivegs.content input[type=text] {
+.inversedirectivegs.content input[type=text],.inversedirectivegs.content input[type=number] {
 	color: rgb(199, 32, 0);
 	width: 230px
 }
