@@ -23,8 +23,6 @@ export class CharacterActorSheet extends HandlebarsApplicationMixin(ActorSheetV2
 				contentClasses: ['inversedirectivegs', 'content'],
 				resizable: true,
 				minimizable: true,
-				width: 2339,
-				height: 1925,
 			},
 		});
 	}

@@ -8,13 +8,26 @@
 	background-image: url("../../../systems/inversedirectivegs/ui/sheets/character-bg.png");
 	/* background-color fallback */
 	background-color: #cccccc;
-	background-size: 2339px 1925px;
+	background-size: 1163px 958px;
 }
 
-.inversedirectivegs.sheet.actor input {
-	position: relative;
-	background-color: #cccccc;
+.inversedirectivegs.content {
+	overflow: scroll;
 }
+
+.inversedirectivegs.content input {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.inversedirectivegs.content input[type=text] {
+	color: rgb(199, 32, 0);
+	width: 230px
+}
+
+.inversedirectivegs.content input[type=checkbox] {
+	color: rgb(32, 199, 0);
+}
+
 
 #physicalArmorHU1 {
 	top: 0px;
