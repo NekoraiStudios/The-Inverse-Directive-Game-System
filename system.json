@@ -11,7 +11,7 @@
 			"url": "https://nekoraistudios.com"
 		}
 	],
-	"esmodules": ["./inversedirective.js"],
+	"esmodules": ["./inversedirectivegs.js"],
 	"styles": ["./styles/base.css"],
 	"packs": [],
 	"languages": [
