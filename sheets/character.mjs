@@ -14,9 +14,6 @@ export class CharacterActorSheet extends HandlebarsApplicationMixin(ActorSheetV2
 		return foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
 			classes: ['inversedirectivegs', 'sheet', 'actor'],
 			tag: "form",
-			actions: {
-				importDocument: this,
-			},
 			form: {
 				handler: this.#onSubmitForm,
 				submitOnChange: true,
@@ -30,6 +27,12 @@ export class CharacterActorSheet extends HandlebarsApplicationMixin(ActorSheetV2
 				height: 1925,
 			},
 		});
+	}
+	/** @inheritDoc */
+	static PARTS = {
+		form: {
+			template: `systems/inversedirectivegs/templates/actor/character-sheet.hbs`
+		}
 	}
 	
 	get document() {

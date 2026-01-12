@@ -8,7 +8,7 @@
 	background-image: url("../../../systems/inversedirectivegs/ui/sheets/character-bg.png");
 	/* background-color fallback */
 	background-color: #cccccc;
-	
+	background-size: 2339px 1925px;
 }
 
 .inversedirectivegs.sheet.actor input {
