@@ -1,6 +1,6 @@
 import { SystemActor, SystemItem } from "./module/documents.mjs";
 import { CharacterDataModel, GearDataModel } from "./module/data-models.mjs";
-import { CharacterActorSheet } from "./sheet/character.mjs";
+import { CharacterActorSheet } from "./sheets/character.mjs";
 
 globalThis.InverseDirectiveGS = {
 	SystemActor,
