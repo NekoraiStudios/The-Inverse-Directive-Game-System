@@ -23,11 +23,10 @@
 	],
 	"documentTypes": {
 		"Actor": {
-			"vehicule": {},
-			"pilot":{}
+			"character": {}
 		},
 		"Item": {
-			"tech": {}
+			"gear": {}
 		}
 	}
 	,
