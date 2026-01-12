@@ -1,0 +1,41 @@
+{
+	"id": "inversedirectivegs",
+	"version": "0.0.1",
+	"title": "The Inverse Directive Game System",
+	"url": "https://github.com/NekoraiStudios/The-Inverse-Directive-Game-System",
+	"description": "Placeholder text for now.",
+	"license": "LICENSE",
+	"authors": [
+		{
+			"name": "Nekorai",
+			"url": "https://nekoraistudios.com"
+		}
+	],
+	"esmodules": ["./inversedirective.js"],
+	"styles": ["./styles/base.css"],
+	"packs": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"documentTypes": {
+		"Actor": {
+			"vehicule": {},
+			"pilot":{}
+		},
+		"Item": {
+			"tech": {}
+		}
+	}
+	,
+	"compatibility": {
+		"minimum": "12",
+		"verified": "13"
+	},
+	"background": "systems/inversedirectivegs/ui/background-system.webp",
+	"manifest": "https://raw.githubusercontent.com/NekoraiStudios/The-Inverse-Directive-Game-System/refs/heads/main/system.json",
+	"download": "https://github.com/NekoraiStudios/The-Inverse-Directive-Game-System/archive/refs/heads/main.zip"
+}
