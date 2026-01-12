@@ -5,10 +5,10 @@
 }
 
 .inversedirectivegs.sheet.actor{
-	background-image: url("systems/inversedirectivegs/ui/sheets/character-bg.png");
+	background-image: url("../../../systems/inversedirectivegs/ui/sheets/character-bg.png");
 	/* background-color fallback */
 	background-color: #cccccc;
-
+	
 }
 
 .inversedirectivegs.sheet.actor input {

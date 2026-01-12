@@ -14,13 +14,21 @@ export class CharacterActorSheet extends HandlebarsApplicationMixin(ActorSheetV2
 		return foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
 			classes: ['inversedirectivegs', 'sheet', 'actor'],
 			tag: "form",
+			actions: {
+				importDocument: this,
+			},
 			form: {
 				handler: this.#onSubmitForm,
 				submitOnChange: true,
 				closeOnSubmit: false
 			},
-			width: 2339,
-			height: 1925,
+			window: {
+				contentClasses: ['inversedirectivegs', 'content'],
+				resizable: true,
+				minimizable: true,
+				width: 2339,
+				height: 1925,
+			},
 		});
 	}
 	
