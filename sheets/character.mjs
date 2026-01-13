@@ -58,7 +58,6 @@ export class CharacterActorSheet extends HandlebarsApplicationMixin(ActorSheetV2
 				context.document.system.description,
 				{
 					async: true, // Required in v13 for asynchronous enrichment
-					rollData: context.document.getRollData(),
 					relativeTo: context.document,
 				}
 			);

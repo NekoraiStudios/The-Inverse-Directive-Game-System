@@ -1,10 +1,9 @@
-const {BooleanField, HTMLField, SchemaField, NumberField, StringField, FilePathField} = foundry.data.fields;
+const {BooleanField, HTMLField, SchemaField, NumberField, StringField} = foundry.data.fields;
 
 class ActorDataModel extends foundry.abstract.TypeDataModel {
 	static defineSchema() {
 		return {
-			description: new HTMLField(),
-			icon: new FilePathField({ required: false, categories: ["IMAGE"] })
+			description: new HTMLField()
 		};
 	}
 }

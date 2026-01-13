@@ -174,9 +174,11 @@
 }
 
 #description {
-	top: 240px;
-	left: 325px;
-	position: fixed;
+	top: 260px;
+    left: 325px;
+    position: fixed;
+    width: 230px;
+    height: 440px;
 }
 
 #charname {
