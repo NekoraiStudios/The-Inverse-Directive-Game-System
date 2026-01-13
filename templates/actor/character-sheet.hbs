@@ -23,7 +23,14 @@
 	<img id="portrait" src="{{actor.img}}" data-action="editImage" data-edit="img" width="270px" height="460px"/>
 	{{!-- Description --}}
 	<div id="description">
-		{{editor system.description target="system.description" button=true owner=owner editable=editable}}
+			{{#if editable}}
+			<prose-mirror name="system.description" value="{{ source.description }}"
+						 document-uuid="{{ actor.uuid }}" class="sized" compact>{{{ enriched.description }}}</prose-mirror>
+			{{else}}
+			<div class="editor editor-content">
+				{{{ enriched.description }}}
+			</div>
+			{{/if}}
 	</div>
 	
 	<input id="charname" name="name" type="text" value="{{actor.name}}" placeholder="Name"/>
