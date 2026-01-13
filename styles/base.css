@@ -176,10 +176,11 @@
 
 #description {
 	top: 260px;
-	left: 325px;
-	position: fixed;
-	width: 230px;
-	height: 440px;
+    left: 318px;
+    position: fixed;
+    width: 257px;
+    height: 440px;
+    color: rgb(199, 32, 0);
 }
 
 #charname {
