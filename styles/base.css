@@ -5,15 +5,17 @@
 }
 
 .inversedirectivegs.content {
-	overflow: scroll;
+	overflow: auto;
 	background-image: url(../../../systems/inversedirectivegs/ui/sheets/character-bg.png);
-	background-color: #cccccc;
+	background-color: #e3e6de;
 	background-size: 1163px 958px;
+	background-position: 0px 0px;
 	background-repeat: no-repeat;
+	background-attachment: local;
 }
 
 .inversedirectivegs.content input {
-	position: relative;
+	position: fixed;
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 18px;
 }
@@ -22,24 +24,38 @@
 	width: 230px
 }
 
+.inversedirectivegs.content input[type=number] {
+	text-align: center;
+	background: transparent;
+}
+
 .inversedirectivegs.content input[type=checkbox] {
 	color: rgb(32, 199, 0);
 }
 
 
 #physicalArmorHU1 {
-	top: 0px;
-	left: 0px
+	top: 44px;
+	left: 44px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #physicalArmorHU2 {
-	top: 20px;
-	left: 0px
+	top: 44px;
+	left: 1086px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #physicalArmorA {
-	top: 40px;
-	left: 0px
+	top: 95px;
+	left: 100px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalArmorArrowAB {
@@ -48,8 +64,11 @@
 }
 
 #physicalArmorB {
-	top: 80px;
-	left: 0px
+	top: 95px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalArmorArrowBC {
@@ -58,13 +77,19 @@
 }
 
 #physicalArmorC {
-	top: 120px;
-	left: 0px
+	top: 95px;
+	left: 450px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalArmorD {
-	top: 140px;
-	left: 0px
+	top: 95px;
+	left: 670px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalArmorArrowED {
@@ -73,8 +98,11 @@
 }
 
 #physicalArmorE {
-	top: 180px;
-	left: 0px
+	top: 95px;
+	left: 845px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalArmorArrowFE {
@@ -83,226 +111,326 @@
 }
 
 #physicalArmorF {
-	top: 220px;
-	left: 0px
+	top: 95px;
+	left: 1020px;
+	width: 40px;
+	height: 40px;
+	font-size: xx-large;
 }
 
 #physicalModSU {
-	top: 240px;
-	left: 0px
+	top: 31px;
+	left: 336px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #physicalModRD {
-	top: 260px;
-	left: 0px
+	top: 31px;
+	left: 385px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #mentalModSU {
-	top: 280px;
-	left: 0px
+	top: 31px;
+	left: 752px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #mentalModRD {
-	top: 300px;
-	left: 0px
+	top: 31px;
+	left: 800px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #mojo {
-	top: 320px;
-	left: 0px
+	top: 63px;
+	left: 540px;
+	width: 80px;
+	height: 80px;
+	font-size: xxx-large;
 }
 
 #mojoMax {
-	top: 340px;
-	left: 0px
+	top: 141px;
+	left: 551px;
+	width: 60px;
+	height: 60px;
+	font-size: xx-large;
 }
 
-#name {
-	top: 360px;
-	left: 0px
+#portrait {
+	top: 240px;
+	left: 35px;
+	position: fixed;
+}
+
+#charname {
+	top: 754px;
+	left: 65px;
+	width: 150px;
 }
 
 #nickname {
-	top: 380px;
-	left: 0px
+	top: 725px;
+	left: 80px;
+	width: 183px;
 }
 
 #nationality {
-	top: 400px;
-	left: 0px
+	top: 725px;
+	left: 326px;
+	width: 127px;
 }
 
 #gender {
-	top: 420px;
-	left: 0px
+	top: 725px;
+	left: 496px;
+	width: 31px;
 }
 
 #surname {
-	top: 440px;
-	left: 0px
+	top: 754px;
+	left: 267px;
+	width: 186px;
 }
 
 #age {
-	top: 460px;
-	left: 0px
+	top: 754px;
+	left: 486px;
+	width: 41px;
 }
 
 #profession {
-	top: 480px;
-	left: 0px
+	top: 782px;
+	left: 100px;
+	width: 260px;
 }
 
 #organisation {
-	top: 500px;
-	left: 0px
+	top: 810px;
+	left: 100px;
+	width: 245px;
 }
 
 #role {
-	top: 520px;
-	left: 0px
+	top: 810px;
+	left: 380px;
+	width: 147px;
 }
 
 #trait-line1 {
-	top: 540px;
-	left: 0px
+	top: 873px;
+	left: 34px;
+	width: 246px;
 }
 
 #trait-line2 {
-	top: 560px;
-	left: 0px
+	top: 873px;
+	left: 284px;
+	width: 246px;
 }
 
 #trait-line3 {
-	top: 580px;
-	left: 0px
+	top: 901px;
+	left: 34px;
+	width: 246px;
 }
 
 #trait-line4 {
-	top: 600px;
-	left: 0px
+	top: 901px;
+	left: 284px;
+	width: 246px;
 }
 
 
 #skill-wit {
-	top: 620px;
-	left: 0px
+	top: 260px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-force {
-	top: 640px;
-	left: 0px
+	top: 309px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-athletics {
-	top: 660px;
-	left: 0px
+	top: 358px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-persuasion {
-	top: 680px;
-	left: 0px
+	top: 407px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-crafting {
-	top: 700px;
-	left: 0px
+	top: 456px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-pilot {
-	top: 720px;
-	left: 0px
+	top: 505px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-espionage {
-	top: 740px;
-	left: 0px
+	top: 554px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-survival {
-	top: 760px;
-	left: 0px
+	top: 603px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-marksmanship {
-	top: 780px;
-	left: 0px
+	top: 652px;
+	left: 845px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 	
 #skill-naturalSciences {
-	top: 800px;
-	left: 0px
+	top: 260px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-socialSciences {
-	top: 820px;
-	left: 0px
+	top: 309px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-formalSciences {
-	top: 840px;
-	left: 0px
+	top: 358px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-lifeSciences {
-	top: 860px;
-	left: 0px
+	top: 407px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-appliedSciences {
-	top: 880px;
-	left: 0px
+	top: 456px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-humanSicences {
-	top: 900px;
-	left: 0px
+	top: 505px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-language {
-	top: 920px;
-	left: 0px
+	top: 554px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-healthSciences {
-	top: 940px;
-	left: 0px
+	top: 603px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 #skill-meleeCombat {
-	top: 960px;
-	left: 0px
+	top: 652px;
+	left: 1100px;
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
 }
 
 	
 #mutations-line1 {
-	top: 980px;
-	left: 0px
+	top: 756px;
+	left: 633px;
+	width: 496px;
 }
 
 #mutations-line2 {
-	top: 1000px;
-	left: 0px
+	top: 784px;
+	left: 633px;
+	width: 496px;
 }
 
 #mutations-line3 {
-	top: 1020px;
-	left: 0px
+	top: 811px;
+	left: 633px;
+	width: 496px;
 }
 
 	
 #brokenCondition {
-	top: 1040px;
-	left: 0px
+	top: 873px;
+	left: 632px;
+	width: 238px;
 }
 
 	
 #trauma-line1 {
-	top: 1060px;
-	left: 0px
+	top: 873px;
+	left: 880px;
+	width: 186px;
 }
 
 #trauma-line2 {
-	top: 1080px;
-	left: 0px
+	top: 901px;
+	left: 880px;
+	width: 186px;
 }
