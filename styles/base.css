@@ -32,6 +32,7 @@
 
 .inversedirectivegs.content input[type=checkbox] {
 	color: rgb(32, 199, 0);
+	--checkbox-checked-color: auto;
 }
 
 
@@ -60,8 +61,8 @@
 }
 
 #physicalArmorArrowAB {
-	top: 60px;
-	left: 0px
+	top: 119px;
+	left: 197px;
 }
 
 #physicalArmorB {
@@ -73,8 +74,8 @@
 }
 
 #physicalArmorArrowBC {
-	top: 100px;
-	left: 0px
+	top: 119px;
+	left: 371px;
 }
 
 #physicalArmorC {
@@ -94,8 +95,8 @@
 }
 
 #physicalArmorArrowED {
-	top: 160px;
-	left: 0px
+	top: 119px;
+	left: 766px;
 }
 
 #physicalArmorE {
@@ -107,8 +108,8 @@
 }
 
 #physicalArmorArrowFE {
-	top: 200px;
-	left: 0px
+	top: 119px;
+	left: 940px;
 }
 
 #physicalArmorF {
@@ -175,10 +176,10 @@
 
 #description {
 	top: 260px;
-    left: 325px;
-    position: fixed;
-    width: 230px;
-    height: 440px;
+	left: 325px;
+	position: fixed;
+	width: 230px;
+	height: 440px;
 }
 
 #charname {
