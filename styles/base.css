@@ -173,6 +173,12 @@
 	position: fixed;
 }
 
+#description {
+	top: 240px;
+	left: 325px;
+	position: fixed;
+}
+
 #charname {
 	top: 754px;
 	left: 65px;
