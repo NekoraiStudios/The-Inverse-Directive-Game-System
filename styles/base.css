@@ -21,12 +21,13 @@
 }
 .inversedirectivegs.content input[type=text],.inversedirectivegs.content input[type=number] {
 	color: rgb(199, 32, 0);
-	width: 230px
+	width: 230px;
+	background: transparent;
+	text-align: left;
 }
 
 .inversedirectivegs.content input[type=number] {
 	text-align: center;
-	background: transparent;
 }
 
 .inversedirectivegs.content input[type=checkbox] {
@@ -36,16 +37,16 @@
 
 #physicalArmorHU1 {
 	top: 44px;
-	left: 44px;
-	width: 30px;
+	left: 38px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
 
 #physicalArmorHU2 {
 	top: 44px;
-	left: 1086px;
-	width: 30px;
+	left: 1080px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
@@ -120,32 +121,32 @@
 
 #physicalModSU {
 	top: 31px;
-	left: 336px;
-	width: 30px;
+	left: 329px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
 
 #physicalModRD {
 	top: 31px;
-	left: 385px;
-	width: 30px;
+	left: 379px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
 
 #mentalModSU {
 	top: 31px;
-	left: 752px;
-	width: 30px;
+	left: 746px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
 
 #mentalModRD {
 	top: 31px;
-	left: 800px;
-	width: 30px;
+	left: 794px;
+	width: 45px;
 	height: 30px;
 	font-size: x-large;
 }
